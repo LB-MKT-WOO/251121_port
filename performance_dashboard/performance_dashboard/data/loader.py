@@ -13,4 +13,3 @@ def load_mother_data(sheet_url: str, sheet_name: str, cred_file: str) -> pd.Data
     if df is None:
         return pd.DataFrame()
     return df
-
